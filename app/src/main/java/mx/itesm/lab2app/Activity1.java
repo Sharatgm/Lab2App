@@ -26,7 +26,7 @@ public class Activity1 extends AppCompatActivity {
                 Intent intent = new Intent(Activity1.this, MainActivity.class);
                 startActivity(intent);
 
-            }
+            }  ///
 
         });
         background.setOnClickListener(new View.OnClickListener() {
