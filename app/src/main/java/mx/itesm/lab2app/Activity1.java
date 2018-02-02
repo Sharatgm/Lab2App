@@ -17,8 +17,8 @@ public class Activity1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_1);
 
-        Button back = (Button)findViewById(R.id.back);
-        Button background = (Button)findViewById(R.id.btn_background);
+        Button back = findViewById(R.id.back);
+        Button background = findViewById(R.id.btn_background);
 
 
         back.setOnClickListener(new View.OnClickListener() {
